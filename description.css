@@ -1,0 +1,285 @@
+/* Author: Chuka Johnny
+/* Co-Author: ;
+/*Date: 24th September 2019; 
+/*Group: euro-HNG;
+/*Stage: Three;
+*/
+
+body {
+	margin:0;
+	padding:0;
+	display: flex;
+	font-family:poppins;
+	background-size:cover;
+	background-position: center;
+	justify-content: center;	
+	background-image: url(rectangle.jpg);
+
+}
+
+.container {
+	positon: relative;
+	width:1200px;
+	height:300px;
+	margin:240px auto;
+	clear:both;
+	background:transparent;
+}
+
+.container .header{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: poppins;
+	margin: 10px 40px;
+	top:5%;
+	left: 20%;
+	height:50px;
+	width: 1000px;
+	right:50%; 
+	clear: both ;
+}
+
+.container .box{
+	position:relative;
+	width: calc(320px - 20px);
+	height: calc(320px - 20px);
+	background: #fff;
+	float:left;
+	text-align:center;
+	margin: 20px 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 4px 70px rgba(0,0,0,.25);
+	font-size: 18px;
+	font-style: normal;
+
+}
+
+.container .box:hover {
+	position:relative;
+	width: calc(320px - 20px);
+	height: calc(320px - 20px);
+	background: #fff;
+	margin: 4px 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 4px 70px rgba(0,0,0,.5);
+	text-align:center;
+	font-size: 18px;
+	font-style: normal;
+	display: block;
+	text align: center;
+	border: 2px solid #37c9ef;
+	outline: none;
+	transition:0.2s;
+}
+
+.content img{
+	padding: 50px 40px 50px 70px;
+	position:relative;
+	min-width: 40%;
+	display:inline;
+	object-fit: cover;
+}
+
+.content img:hover{
+	padding: 60px;
+	position:relative;
+	transition: 0.5s
+	display:inline;
+	object-fit: cover;
+
+}
+
+.container .box h3{
+	position: absolute;
+	top:10%;
+	width:100%;
+	height: 40%;
+	background:transparent;
+	text-align: center;
+	font-family: sans-serif;
+	font-size:22px;
+	font-style: normal;
+}
+
+.container .box p {
+	position:absolute;
+	text-align: center;
+	color: #A4A4A4;
+	padding: 180px 40px 30px 40px;
+}
+
+.content .icon {
+	position: absolute;
+	margin: 40px;
+	width: 50%;
+	height: 10%;
+}
+
+
+.locontainer {
+	positon: relative;
+	width:840px;
+	height:200px;
+	margin-left: 200px;
+	background:transparent;
+	clear: both ;
+}
+
+
+.locontainer .box{
+	position:relative;
+	width: calc(320px - 20px);
+	height: calc(320px - 20px);
+	background: #fff;
+	float:center;
+	text-align:center;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 4px 20px rgba(0,0,0,.25);
+	font-size: 18px;
+	font-style: normal;
+
+
+}
+
+.locontainer .box:hover {
+	position:relative;
+	width: calc(320px - 20px);
+	height: calc(320px - 20px);
+	background: #fff;
+	margin: 4px 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 4px 70px rgba(0,0,0,.5);
+	text-align:center;
+	font-size: 18px;
+	font-style: normal;
+	display: block;
+	text align: center;
+	border: 2px solid #37c9ef;
+	outline: none;
+	transition:0.2s;
+}
+
+
+.locontainer .box h3{
+	position: absolute;
+	top:10%;
+	left:0;
+	width:100%;
+	height: 40%;
+	background:transparent;
+	text-align: center;
+	font-family: sans-serif;
+	font-size:22px;
+	font-style: normal;
+}
+
+.locontainer .box p {
+	position:absolute;
+	text-align: center;
+	color: #A4A4A4;
+	padding: 180px 40px 30px 40px;
+}
+
+	
+
+}
+
+/*
+.container .box:hover .icon {
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+}
+/*
+.container .box .icon .fa{
+	position: absolute ;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size:80px;
+	transition: 0.5s;
+	color: #fff;
+
+}
+
+.container .box .content{
+	position: absolute;
+	top: 100px;
+	height: calc(100% - 10px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	
+/*
+.content .box:hover .content {
+	top: 100px;
+	opacity:1;
+}
+
+.container .box .content h3 {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 24px;
+}
+
+.container .box .content p {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.container .box:nth-child(1) .icon{
+	background: #319635;
+}
+.container .box:nth-child(1) .icon{
+	background: #4caf50;
+}
+.container .box:nth-child(2) .icon{
+	background: #d03852;
+}
+.container .box:nth-child(2) .icon{
+	background: #f54967;
+}
+
+
+.lower {
+	positon: relative;
+	width:1200px;
+	height:300px;
+	margin:5px auto;
+	background: #000;
+	jutify-content: center
+}
+
+.lower .box{
+	position:relative;
+	width: calc(350px - 20px);
+	height: calc(350px - 20px);
+	background: #fff;
+	float:left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow:hidden;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
